@@ -1,0 +1,12 @@
+:root {
+  --color-degrade-cinza-preto: #000000, /* Preto */ #1a1a1a,
+    /* Cinza muito escuro */ #333333, /* Cinza escuro */ #4d4d4d,
+    /* Cinza médio-escuro */ #666666, /* Cinza médio */ #808080,
+    /* Cinza */ #999999, /* Cinza claro */ #b3b3b3,
+    /* Cinza muito claro */ #e6e6e6,
+    /* Cinza quase branco */ #ffffff /* Branco */;
+  --color-primario-branco: #fff;
+  --color-primario-preta: #000;
+  --color-degrade-branco: #ffffff, #f2f2ff, #e6e6ff, #dbcfff, #e4c8ff, #e3cef9;
+  --color-degrade-cinza: #f0f0f0, #b0b0b0, #505050;
+}

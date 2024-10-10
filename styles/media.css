@@ -1,0 +1,194 @@
+/* Media queries para ajustar o layout em telas menores */
+@media (max-width: 768px) {
+    header {
+        
+        width: 100%;
+        height: 80px
+    }
+    
+    
+    .icon {
+        text-decoration: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 14px;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        position: relative;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+          rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+      }
+      footer .dev p{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        font-family: 'Michroma', sans-serif;
+        font-size: 1vw;
+     }
+}
+
+
+/* Media queries para ajustar o layout em telas menores */
+@media (max-width: 568px) {
+    header {
+        
+        width: 100%;
+        height: 70px
+    }
+    
+    
+}
+
+
+/* Media queries para ajustar o layout em telas menores */
+@media (max-width: 768px) {
+    header {
+        
+        width: 100%;
+        height: 100px
+    }
+    
+    
+}
+
+
+/* Media queries para ajustar o layout em telas menores */
+@media (max-width: 478px) {
+    header {
+        
+        width: 100%;
+        height: 90px
+    }
+    
+    main .olá{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .olá img{
+        scale: 0.6;
+
+    }
+
+    .card .img-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        scale: 0.7;
+    }
+    
+ 
+}
+
+
+
+/* Media queries para ajustar o layout em telas menores */
+@media (max-width: 388px) {
+    header {
+        
+        width: 100%;
+        height: 70px
+    }
+    
+    .olá img{
+        scale: 0.3;
+
+    }
+    
+}
+
+
+
+@media (max-width: 320px) {
+    
+  .card .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    scale: 0.6;
+}  
+
+footer .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap; /* Permite que os itens se movam para uma nova linha */
+    padding: 1rem; /* Adiciona padding ao wrapper */
+  }
+  
+
+    
+
+    .content{
+        font-size: 0.8vw;
+        word-wrap: break-word; /* Permite que palavras longas sejam quebradas */
+        overflow-wrap: break-word; /* Funciona como word-wrap, mas é a norma moderna */
+    }
+
+    footer .dev p{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        font-family: 'Michroma', sans-serif;
+        font-size: 3vw;
+     }
+   
+  }  
+
+
+
+@media (max-width: 1024px) {
+    
+
+    .content{
+        font-size: 1.0vw;
+        word-wrap: break-word; /* Permite que palavras longas sejam quebradas */
+        overflow-wrap: break-word; /* Funciona como word-wrap, mas é a norma moderna */
+    }
+   
+  }  
+
+
+  
+@media (max-width: 768px) {
+    
+
+    .content{
+        font-size: 1.3vw;
+        word-wrap: break-word; /* Permite que palavras longas sejam quebradas */
+        overflow-wrap: break-word; /* Funciona como word-wrap, mas é a norma moderna */
+    }
+   
+  }  
+
+
+  @media (max-width: 426px) {
+    
+
+    .content{
+        font-size: 2.4vw;
+        word-wrap: break-word; /* Permite que palavras longas sejam quebradas */
+        overflow-wrap: break-word; /* Funciona como word-wrap, mas é a norma moderna */
+    }
+   
+    .card .content{
+        top: 90px;
+        gap: 12px;
+    }
+
+    footer .dev p{
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        font-family: 'Michroma', sans-serif;
+        font-size: 1.8vw;
+     }
+  }  
+  

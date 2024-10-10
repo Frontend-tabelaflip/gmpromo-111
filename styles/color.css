@@ -1,0 +1,11 @@
+header{
+    background: linear-gradient(to right, var(--color-degrade-cinza-preto));
+}
+
+main{
+    background: linear-gradient(to right, var(--color-degrade-branco));
+}
+
+footer{
+    background: linear-gradient(to right, var( --color-degrade-cinza));
+}

@@ -1,0 +1,305 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    border-bottom:2px solid #000 ;
+}
+header div img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin: 20px;
+    overflow: hidden;
+
+}
+
+
+
+
+
+main{
+    display: flex;
+    width: 100vw;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+main #whatsapp{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin: 30px;
+}
+
+section{
+    height: 500px;
+   display: flex;
+}
+footer{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: solid 1px #000;
+
+}
+
+footer .dev p{
+   display: flex;
+   justify-content: center;
+   align-items: end;
+   font-family: 'Michroma', sans-serif;
+   font-size: 0.8vw;
+   flex-direction: column;
+}
+
+main img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.content{
+    color: #54595f;
+}
+header img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+header div img{
+    width: 226px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.olá img{
+    width: 300px;
+    height: 363px;
+    object-fit: cover;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+main .olá{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+section{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
+.card {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: 450px;
+    position: relative;
+    background: linear-gradient(to left, 
+    rgba(255, 255, 255, 1),   /* Branco puro */
+    rgba(245, 245, 245, 0.9), /* Branco um pouco mais escuro */
+    rgba(235, 235, 235, 0.8), /* Cinza muito claro */
+    rgba(225, 225, 225, 0.7), /* Cinza claro */
+    rgba(215, 215, 215, 0.6)  /* Cinza claro mais escuro */
+);
+    border-radius: 20px;
+    box-shadow: 3px 10px 20px rgba(0, 0, 0, 0.615);
+}
+
+
+
+.card .img-box {
+    position: absolute;
+    width: 250px;
+    height: auto;
+    top: 0px;
+    transition: 0.5s;
+}
+
+.card .img-box {
+    top: -100px;
+    scale: 0.75;
+}
+
+.card .img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card .content {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    position: absolute;
+    top: 120px;
+    width: 100%;
+    padding: 0px 30px;
+    text-align: center;
+    height: 30px;
+    transition: 0.5s;
+}
+
+.content{
+    font-size: 0.8vw;
+    word-wrap: break-word; /* Permite que palavras longas sejam quebradas */
+    overflow-wrap: break-word; /* Funciona como word-wrap, mas é a norma moderna */
+    overflow-wrap: break-word;
+}
+
+
+.card .read-more {
+   background: linear-gradient(90deg, #3730a3, #7e22ce);
+   padding: 12px;
+   color: #fff;
+   text-decoration: none;
+   border-radius: 8px;
+}
+
+ footer .wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap; /* Permite que os itens se movam para uma nova linha */
+    padding: 1rem; /* Adiciona padding ao wrapper */
+  }
+  
+  .icon {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 14px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+      rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+  
+  .icon > i {
+    color: #000;
+    font-size: 1.5rem;
+    transition: all 0.2s;
+  }
+  
+  .icon:hover > i {
+    scale: 1.2;
+    color: #f1f1f1;
+  }
+  
+  .icon:before {
+    background: var(--color);
+    content: "";
+    position: absolute;
+    width: 130%;
+    height: 130%;
+    left: -110%;
+    top: 80%;
+    transform: rotate(45deg);
+  }
+  
+  .icon:hover:before {
+    animation: slide 0.7s forwards;
+  }
+  
+  @keyframes slide {
+    50% {
+      left: 10%;
+      top: -40%;
+    }
+  
+    100% {
+      left: -15%;
+      top: -15%;
+    }
+  }
+  
+  .icon:has(.fa-instagram) {
+    --color: linear-gradient(45deg, #f9ce34, #ee2a7b, #6228d7);
+  }
+  .icon:has(.fa-linkedin-in) {
+    --color: #0077b5;
+  }
+  .icon:has(.fa-youtube) {
+    --color: #ff0000;
+  }
+  .icon:has(.fa-x-twitter) {
+    --color: #333333;
+  }
+  .icon:has(.fa-github) {
+    --color: #333;
+  }
+  
+  /* Media Queries para Responsividade */
+  @media (max-width: 768px) {
+    .wrapper {
+      gap: 1rem; /* Reduz o espaço entre os ícones em telas menores */
+    }
+  
+    .icon {
+      width: 4rem; /* Diminuir o tamanho dos ícones */
+      height: 4rem; /* Diminuir o tamanho dos ícones */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .icon {
+      width: 3rem; /* Diminuir ainda mais em telas pequenas */
+      height: 3rem; /* Diminuir ainda mais em telas pequenas */
+    }
+  
+    .icon > i {
+      font-size: 1.2rem; /* Ajustar o tamanho do ícone */
+    }
+  }
+  
+
+
+span{
+    color: #000;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
